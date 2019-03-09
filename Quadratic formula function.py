@@ -23,10 +23,10 @@ def quadFormula(a,b,c):
   else:
     return -3, 0 , 0
   
-  
-water = float(input("a value"))
-ribs = float(input("b value"))
-steak = float(input("c value"))
+#Program Test  
+a_value = float(input("a value"))
+b_value = float(input("b value"))
+c_value = float(input("c value"))
 
-roots, ans , answer = quadFormula(water,ribs,steak)
-print("x =",ans,"and x =",answer,". There are",roots,"roots")
+num_of_roots, answer1 , answer2 = quadFormula(a_value,b_value,c_value)
+print("x =",answer1,"and x =",answer2,". There are",num_of_roots,"roots")
